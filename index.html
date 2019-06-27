@@ -8,47 +8,55 @@
         <title>Study of emotional speech synthesis using WaveNet without linguistic information
         </title>
 	<!-- ページトップの表示用  -->
-    <!--<link rel="stylesheet" type="text/css" href="bulma.css"> -->
+    <link rel="stylesheet" type="text/css" href="bulma.css">
      <!--<link rel="stylesheet" type="text/css" href="bulma.min.css">-->
     </head>
 
-<body>
-<div class="content">
+  <body>
+  <div class="content">
+    <div class="column is-three-quarters">
 
-<h1>Study of emotional speech synthesis using WaveNet <br> without linguistic information
-</h1>
-<p><h5>Hello</h5></p>
-<div class="column is-half">
-    <table class="table is-bordered">
-      <thead>
-        <tr style="background: hsl(175, 96%, 80%);">
-          <th>Generated Normal</th>
-          <th>Generated Angry</th>
-          <th>Generated Happy</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td> 
-                <audio  src="media/generated_fujitou_normal_001.wav" controls>
+    <h1>
+      Study of emotional speech synthesis using WaveNet <br> without linguistic information
+    </h1>
+    <h3>Authors: Kento Matsumoto, Sunao Hara, Masanobu Abe</h3>
+    <p><h4>
+      In this page, there are generated speeches by our proposed method.<br>
+      Note a volume.
+    </h4></p>
+    </div>
+    
+    <div class="column is-three-quarters">
+        <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+          <thead>
+            <tr style="background: hsl(175, 96%, 80%);">
+              <th>Generated Normal</th>
+              <th>Generated Angry</th>
+              <th>Generated Happy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> 
+                    <audio  src="media/generated_fujitou_normal_001.wav" controls>
                         <p style="color: red">Your browser does not support the HTML5</p>
+                    </audio>
+                </td>
+              <td>
+                  <audio  src="media/generated_fujitou_angry_001.wav" controls>
+                      <p style="color: red">Your browser does not support the HTML5</p>
                 </audio>
-            </td>
-          <td>
-                <audio  src="media/generated_fujitou_angry_001.wav" controls>
-                    <p style="color: red">Your browser does not support the HTML5</p>
-            </audio>
-            </td>
-          <td>
-                <audio  src="media/generated_fujitou_happy_001.wav" controls>
-                    <p style="color: red">Your browser does not support the HTML5</p>
-            </audio>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+                </td>
+              <td>
+                  <audio  src="media/generated_fujitou_happy_001.wav" controls>
+                      <p style="color: red">Your browser does not support the HTML5</p>
+                </audio>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   </div>
-</div>
-    </body>
+  </body>
 </html>
 
